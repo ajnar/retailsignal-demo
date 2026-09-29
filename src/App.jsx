@@ -261,13 +261,9 @@ const CSS = `
   .rs-brief p {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 17px; line-height: 1.85; color: #d8d3c9;
-    margin: 0 0 20px; letter-spacing: 0.005em;
+    margin: 0 0 20px; letter-spacing: 0.005em; text-align: left;
   }
   .rs-brief p:last-child { margin-bottom: 0; }
-  .rs-brief p:first-child::first-letter {
-    font-size: 3.1em; font-weight: 700; color: #f59e0b;
-    float: left; line-height: 0.85; padding: 6px 10px 0 0;
-  }
   .rs-brief-foot {
     margin-top: 22px; padding-top: 14px; border-top: 1px solid #1b2a42;
     font-family: 'DM Mono', monospace; font-size: 10px; color: #3a4d6a;
