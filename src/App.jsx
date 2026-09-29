@@ -149,7 +149,7 @@ export default function App() {
           "anthropic-dangerous-direct-browser-access": "true",
         },
         body: JSON.stringify({
-          model:      "claude-sonnet-4-20250514",
+          model:      "claude-sonnet-4-6",
           max_tokens: 1000,
           system:     "You are a senior retail intelligence analyst writing daily briefings for branch managers. Write like a trusted advisor who studied every number overnight — warm, specific, direct. No bullet points. No headers. Flowing paragraphs only.",
           messages:   [{ role: "user", content: buildPrompt() }],
